@@ -1,5 +1,8 @@
 
-# A data warehouse is a central repository of information that can be analyzed to make more informed decisions. Data flows 
-# into a data warehouse from transactional systems, relational databases, and other sources, typically on a regular cadence. 
-# Business analysts, data engineers, data scientists, and decision makers access the data through business intelligence (BI) 
-# tools, SQL clients, and other analytics applications.
+# Data Warehouse
+- Users: Users are business users
+- Provides: Business reports and performance metrics
+- Processing: Schema on write
+- Data: Structured data only
+- Storage: Only data needed for analytics is stored
+- Decision makers access the data through business intelligence (BI) tools and SQL clients

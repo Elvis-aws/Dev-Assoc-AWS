@@ -26,6 +26,8 @@
   for applications with fluctuating workloads
 - Pay only for what you use with Kinesis Data Streams, starting as low as $0.015 per hour. With the on-demand mode, 
   you don't need to worry about over-provisioning
+- Data ordering: Ordering of records at the shard level, as well as the ability to read and/or replay records in the 
+  same order to multiple Amazon Kinesis Applications
 
 # Kinesis Data Firehose
 - This service is designed for real-time data ingestion and is typically used when you want to load streaming data into 

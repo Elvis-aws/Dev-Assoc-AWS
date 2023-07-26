@@ -1,4 +1,8 @@
 
-# A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale. 
-# You can store your data as-is, without having to first structure the data, and run different types of analytics—from 
-# dashboards and visualizations to big data processing, real-time analytics, and machine learning to guide better decisions.
+# Data Lake
+- Users: Users are data scientists
+- Provides: Provides data for AI and ML
+- Processing: Schema on read
+- Data: Structured and unstructured data
+- Storage: All data can be stored
+- Real-time analytics, and machine learning to guide better decisions
