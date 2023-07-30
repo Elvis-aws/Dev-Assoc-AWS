@@ -7,6 +7,7 @@
 - After all parts of your object are uploaded, Amazon S3 assembles these parts and creates the object. 
 - In general, when your object size reaches 100 MB, you should consider using multipart uploads instead of uploading 
   the object in a single operation
+- Max 5GB in a single operation
 
 # CLI
 - file name = myfile.mp4

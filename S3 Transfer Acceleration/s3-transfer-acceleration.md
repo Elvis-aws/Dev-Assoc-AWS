@@ -9,3 +9,4 @@
 - Set transfer acceleration to true in the S3 Client
 - S3 uploads the file from the destination bucket and stores in an Edge location
 - Using the private AWS network
+- This is an s3 service and can only transfer objects

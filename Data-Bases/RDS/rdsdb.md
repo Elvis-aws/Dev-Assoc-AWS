@@ -5,3 +5,5 @@
 - Scales in a few minutes up to a maximum extent of 32 vCPUs, and 244 GiB of RAM
 - RDS supports Microsoft SQL server, Oracle Database, MariaDB, MySQL, PostgreSQL, and Amazon Aurora
 - It supports fifteen replicas for the provision
+- Multi AZ for disaster recovery and follows synchronous replication
+- Read replica for failover and follows asynchronous replication in different AZ's or regions

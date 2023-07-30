@@ -25,3 +25,6 @@
 - Findings will be generated
 - These findings will then trigger EventBridge rules
 - These will then be sent to SNS for notification or Lambda
+# Delete Data
+- Disabling the service will delete all remaining data, including your findings and configurations before relinquishing 
+  the service permissions and resetting the service
