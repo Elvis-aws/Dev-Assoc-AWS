@@ -8,3 +8,5 @@
   using AWS Direct Connect or AWS VPN
 - You can connect to Amazon EFS file systems from EC2 instances in other AWS regions using an inter-region VPC peering 
   connection, and from on-premises servers using an AWS VPN connection
+- Amazon EFS Infrequent Access (EFS IA) is a storage class that provides price/performance that is cost-optimized for 
+  files, not accessed every day, with storage prices up to 92% lower compared to Amazon EFS Standard

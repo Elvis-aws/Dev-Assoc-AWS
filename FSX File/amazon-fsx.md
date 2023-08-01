@@ -9,7 +9,8 @@
 # Amazon FSx offers three types of file systems:
 - Amazon FSx for Windows File Server: Designed for business applications
 - Amazon FSx for Lustre: Designed for compute-intensive workloads. Integrates with S3 thus it can store data in different
-  tiers. FSx for Lustre does not support Microsoft’s Distributed File System only linux
+  tiers. FSx for Lustre does not support Microsoft’s Distributed File System only linux. FSx for Lustre is a file system 
+  better suited for distributed computing for HPC (high-performance computing) and is very expensive
 - Amazon FSx for ONTAP: Multiprotocol file and block storage access, with NetApp’s advanced data management system 
   features and benefits
 - Does not support EFS

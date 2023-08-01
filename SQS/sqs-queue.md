@@ -15,3 +15,7 @@
   records before invoking the function. The max maximumBatchingWindow is 300 seconds
 - FIFO queues support 300 messages per second
 - When you can batch 10 messages per operation, they can support 3000 messages per second
+
+# Group ID
+- If we don't specify a GroupID, then all the messages are in absolute order, but we can only have 1 consumer at most
+- To allow for multiple consumers to read data and to scale the number of consumers, we should use the "Group ID" attribute
