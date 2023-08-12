@@ -30,6 +30,7 @@
             - Large database workloads such as MongoDB, PostgresSQL, Oracle
             - 4GB to 16TB
             - Expensive
+            - 25,000 IOPS per
 - Hard disk drive (HDD) volumes
     - Optimized for large streaming workloads where the dominant performance attribute is throughput
     - HDD volume types include 
@@ -39,6 +40,7 @@
             - Data Warehouse
             - Log processing
             - Cant be used as boot volume
+            - OPS/Volume of 500
         - Cold HDD (sc1)
             - Lowest storage cost
             - Not a boot volume

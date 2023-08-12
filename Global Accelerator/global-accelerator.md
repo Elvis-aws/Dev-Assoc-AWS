@@ -1,5 +1,8 @@
 
 # Global Accelerator
+- AWS Global Accelerator is a networking service that sends your user’s traffic through Amazon Web Service’s global 
+  network infrastructure, improving your internet user performance by up to 60%
+- Global Accelerator is a good fit for non-HTTP use cases, such as gaming (UDP), IoT (MQTT), or Voice over IP
 - AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of 
   your public applications
 - It helps directs traffic to optimal endpoints over the AWS global network, this improves the availability and 

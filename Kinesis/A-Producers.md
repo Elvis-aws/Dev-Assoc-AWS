@@ -6,3 +6,5 @@
   write throughput to a Kinesis data stream
 - This data is sent into kinesis data stream and fed into shards
 - Shards consist of records with similar partition keys
+- Kinesis is a publish-subscribe model, used when publisher applications need to publish the same data to different 
+  consumers in parallel

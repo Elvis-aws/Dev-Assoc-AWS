@@ -16,7 +16,7 @@
   or other compatible tools and frameworks
 - Data Retention: Kinesis Data Streams allows you to control the retention period for data in the stream. This means 
   you can specify how long data should be stored in the stream before it expires. By default, the data is stored in shards 
-  for 24 hours. You can increase the time to 7 days of retention
+  for 24 hours. You can increase the time to 365 days of retention
 - Data Analytics: Kinesis Data Streams integrates with other AWS services like Amazon Kinesis Data Analytics, Amazon 
   Elasticsearch, and Amazon SageMaker, enabling you to perform real-time data analytics, derive insights, and build 
   machine learning models on streaming data

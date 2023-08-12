@@ -10,3 +10,13 @@
 - If two or more Aurora Replicas share the same priority, then Amazon RDS promotes the replica that is largest in size
 - If two or more Aurora Replicas share the same priority and size, then Amazon Aurora promotes an arbitrary replica in 
   the same promotion tier
+# Amazon Aurora Serverless
+- Amazon Aurora Serverless is an on-demand, auto-scaling configuration for Amazon Aurora, where the database will 
+  automatically start-up, shut down, and scale capacity up or down based on your application's needs
+- You pay on a per-second basis for the database capacity you use when the database is active and migrate between standard 
+  and serverless configurations with a few clicks in the Amazon RDS Management Console
+# Amazon Aurora
+- Amazon Aurora is a relational database built for the cloud, that combines the performance and availability of traditional 
+  enterprise databases with the simplicity and cost-effectiveness of open source databases
+- Amazon Aurora is up to five times faster than standard MySQL databases and three times faster than standard PostgreSQL
+- Its not a complete auto scaling solution and neither is it fully managed like Aurora serverless
