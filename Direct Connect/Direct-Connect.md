@@ -12,3 +12,9 @@
 - No encryption in transit
 - Cheaper but difficult to install
 - You can use direct connect partners to set up this connection
+- Connection does not fluctuates
+# Usage
+- AWS Direct Connect is used when customers need to retain on-premises structure because of compliance reasons and have 
+  moved the rest of the architecture to AWS Cloud
+- These businesses generally have an on-going requirement for low latency access to AWS Cloud and hence are willing to 
+  spend on installing the physical lines needed for this connection

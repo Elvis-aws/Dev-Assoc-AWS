@@ -1,8 +1,6 @@
 
 # Access Control List
-- Organizations can use access control lists (ACL) to secure data
-- One of the major reasons to use access control lists is to restrict unauthorized users from accessing business-sensitive 
-  information
-- It can also be used to control network traffic by limiting the number of users accessing files, systems, and information
-- Within Amazon S3, you can use ACLs to give read or write access on buckets or objects to groups of users
-- With ACLs, you can only grant other AWS accounts (not specific users) access to your Amazon S3 resources
+- Access control lists (ACLs) are service policies that allow you to control which principals in another account can 
+  access a resource
+- ACLs cannot be used to control access for a principal within the same account
+- Amazon S3, AWS WAF, and Amazon VPC are examples of services that support ACLs

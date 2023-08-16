@@ -8,3 +8,6 @@
 - VPN tunnel: An encrypted link where data can pass from the customer network to or from AWS 
 - Customer Gateway: An AWS resource that provides information to AWS about your Customer Gateway device 
 - Customer Gateway device: A physical device or software application on the customer side of the Site-to-Site VPN connection
+- VPN connection is used when businesses have an on-going requirement for connectivity from the on-premises data center 
+  to AWS Cloud
+- Connection fluctuates
