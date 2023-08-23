@@ -18,3 +18,9 @@
   moved the rest of the architecture to AWS Cloud
 - These businesses generally have an on-going requirement for low latency access to AWS Cloud and hence are willing to 
   spend on installing the physical lines needed for this connection
+# High Availability
+- Create more connections
+- Create more direct connect locations
+- Add site to site vpn connection
+# Resource
+https://www.youtube.com/watch?v=jEcl5H8Ow_8

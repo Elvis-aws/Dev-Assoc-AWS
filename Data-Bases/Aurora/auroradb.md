@@ -20,3 +20,4 @@
   enterprise databases with the simplicity and cost-effectiveness of open source databases
 - Amazon Aurora is up to five times faster than standard MySQL databases and three times faster than standard PostgreSQL
 - Its not a complete auto scaling solution and neither is it fully managed like Aurora serverless
+- You cannot promote an Aurora Read Replica to a standalone DB instance

@@ -12,3 +12,7 @@
 - Volume storage for all EBS volume types is charged by the amount of GB you provision per month
 - Costs increase for EBS volumes that support additional input/output operations per second (IOPS) and throughput
 - For EBS General Purpose SSD (gp2) volumes, the charges are $0.10 per GB-month of provisioned storage
+# EBS volumes are AZ locked
+- When you create an EBS volume, it is automatically replicated within its Availability Zone to prevent data loss due to 
+  the failure of any single hardware component. You can attach an EBS volume to an EC2 instance in the same Availability 
+  Zone

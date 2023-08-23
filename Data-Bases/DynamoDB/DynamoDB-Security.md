@@ -11,3 +11,9 @@
     - Customer Managed: Keys are stored in the customers account, owned and managed by the customer. Additional charges 
       apply
 - Use IAM policies to manage access
+# Encryption
+- All DynamoDB tables are encrypted
+- There is no option to enable or disable encryption for new or existing tables
+- By default, all tables are encrypted under an AWS owned customer master key (CMK) in the DynamoDB service account
+- However, you can select an option to encrypt some or all of your tables under a customer-managed CMK or the AWS managed 
+  CMK for DynamoDB in your account

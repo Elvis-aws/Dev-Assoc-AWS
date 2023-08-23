@@ -9,3 +9,8 @@
 - You don't incur charges when the data warehouse is idle, so you only pay for what you use
 - You can load data and start querying right away in the Amazon Redshift query editor v2 or in your favorite business 
   intelligence (BI) tool
+# Redshift Spectrum Overview
+- Using Amazon Redshift Spectrum, you can efficiently query and retrieve structured and semistructured data from files 
+ in Amazon S3 without having to load the data into Amazon Redshift tables
+- Amazon Redshift Spectrum resides on dedicated Amazon Redshift servers that are independent of your cluster
+

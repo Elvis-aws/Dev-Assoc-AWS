@@ -18,3 +18,9 @@
 - AWS Snowcone devices
 - Google Cloud Storage buckets
 - Azure Files
+# Attributes
+- DataSync fully automates the data transfer
+- It comes with retry and network resiliency mechanisms, network optimizations, built-in task scheduling, monitoring via 
+  the DataSync API and Console, and CloudWatch metrics, events, and logs that provide granular visibility into the transfer 
+  process
+- DataSync performs data integrity verification both during the transfer and at the end of the transfer

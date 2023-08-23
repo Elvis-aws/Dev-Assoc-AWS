@@ -25,12 +25,14 @@
             - low latency
             - 1GB to 16TB
             - Cheap
+            - Can not be shared across instances
         - Provisioned IOPS SSD (io1, io2)
             - Critical business application that requires sustained performance
             - Large database workloads such as MongoDB, PostgresSQL, Oracle
             - 4GB to 16TB
             - Expensive
             - 25,000 IOPS per
+            - Can be shared across instances
 - Hard disk drive (HDD) volumes
     - Optimized for large streaming workloads where the dominant performance attribute is throughput
     - HDD volume types include 

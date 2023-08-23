@@ -17,3 +17,9 @@
 - Blocked requests are stopped before they reach your web servers
 - When you use AWS WAF on regional services, such as Application Load Balancer, Amazon API Gateway, and AWS AppSync, 
   your rules run in region and can be used to protect internet-facing resources
+# Deployment
+- AWS WAF can be deployed on Amazon CloudFront
+- AWS WAF can be deployed on Application Load Balancer (ALB)
+- AWS WAF can be deployed on Amazon API Gateway
+- AWS WAF can't be directly associated with an Amazon EC2 instance. Instead, register your Amazon EC2 instances as a 
+  target for your Application Load Balancer (ALB) and then associate AWS WAF with the ALB
