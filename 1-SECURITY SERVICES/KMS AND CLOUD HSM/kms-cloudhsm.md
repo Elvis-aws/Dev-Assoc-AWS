@@ -43,15 +43,7 @@
 - (TIP) If encryption context is different, decryption will NOT succeed
 
 # AWS CloudHSM
-- Managed (highly available & auto scaling) dedicated single-tenant Hardware Security Module(HSM) for regulatory compliance
-- (Remember) AWS KMS is a multi-tenant service
-- FIPS 140-2 Level 3 compliant
-- AWS CANNOT access your encryption master keys in CloudHSM
-- In KMS, AWS can access your master keys
-- Be ultra safe with your keys when you are using CloudHSM
-- (Recommendation) Use two or more HSMs in separate AZs in a production cluster
-# Use cases
-- (Web servers) Offload SSL processing
-- Certificate Authority
-- Digital Rights Management
-- TDE for Oracle databases
+- Tamper resistant computing device
+- To manage, process and store digital keys
+- Can be used to store AWS KMS keys
+- No access to the keys once stored here

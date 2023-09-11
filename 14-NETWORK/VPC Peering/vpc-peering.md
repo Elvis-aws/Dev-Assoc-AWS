@@ -7,4 +7,4 @@
   - Owner of the peer VPC has one week to accept
 - Couple of important things to remember about VPC Peering:
   - Peering is not transitive 
-  - Peer VPCs cannot have overlapping address ranges
+  - Peer VPCs cannot have overlapping address ranges (CIDR or subnets)

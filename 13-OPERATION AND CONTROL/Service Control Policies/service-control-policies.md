@@ -12,3 +12,4 @@
   denied by the applicable SCPs, the user or role can't perform that action 
 - SCPs affect all users and roles in the attached accounts, including the root user 
 - SCPs do not affect any service-linked role
+- SCPs do not affect any users or roles created in the management account
