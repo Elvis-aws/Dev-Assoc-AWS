@@ -41,3 +41,5 @@
 # Delete Data
 - Disabling the service will delete all remaining data, including your findings and configurations before relinquishing 
   the service permissions and resetting the service
+# Video
+- https://www.youtube.com/watch?v=4rR37ZBJWdI

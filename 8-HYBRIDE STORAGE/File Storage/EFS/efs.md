@@ -3,6 +3,7 @@
 - Automatic scaling
 - Encryptes both data at rest by using AWS key management service and in transit by using TLS 1.2
 - POSIX compliant (POSIX storage refers to any storage that can be accessed using POSIX filesystem functions)
+- Supports NFS version 4.1
 - Use with AWS Cloud services and on-premises resources
 - Offer EFS to EFS replication through AWS DataSync service or any third party tools
 - Best for database backups, containers, storage sets, web serving, etc
@@ -23,3 +24,5 @@
 - EFS One Zone and EFS One Zone–Infrequent Access, which offer you the choice of additional savings by choosing to save 
   your data in a single Availability Zone
 - EFS Standard Storage pricing is $0.30 per GB per month
+- EFS Lifecycle
+  - Automatic object transitioning

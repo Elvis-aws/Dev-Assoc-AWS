@@ -4,13 +4,13 @@
 - Automates process
 - uses internet or Direct connect (VPC endpoint)
 - Transfer rate is 10 Gbps
-- Transfer files to the following destinations
-  - Amazon EFS file system
-  - Amazon FX for windows file system
-  - Amazon S3
 - Transfer between AWS regions
 - Supports multiple destination
 - Monitor progress using Amazon CloudWatch
+# Transfer files to the following destinations
+- Amazon EFS file system
+- Amazon FX for windows file system
+- Amazon S3
 # Use cases
 - Data Migration, Data replication and Cold data archival
 - Use AWS Snowball if you are bandwidth constrained or too much data
