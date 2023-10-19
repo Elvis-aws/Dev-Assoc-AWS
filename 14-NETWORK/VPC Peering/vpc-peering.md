@@ -8,3 +8,4 @@
 - Couple of important things to remember about VPC Peering:
   - Peering is not transitive 
   - Peer VPCs cannot have overlapping address ranges (CIDR or subnets)
+  - Peering is not possible with on-premise servers

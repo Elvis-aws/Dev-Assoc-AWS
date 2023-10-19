@@ -18,4 +18,3 @@
   - Faster than EFS
   - Connects to S3 (Replicates data in S3)
   - Compatible with windows and Linux
-  - 

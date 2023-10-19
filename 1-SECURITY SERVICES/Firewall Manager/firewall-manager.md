@@ -1,8 +1,18 @@
 
-# Firewall Manager
+# Amazon Firewall Manager
 - AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules 
   across your accounts and applications in AWS Organizations
-- As new applications are created, Firewall Manager makes it easy to bring new applications and resources into compliance 
-  by enforcing a common set of security rules
-- Now you have a single service to build firewall rules, create security policies, and enforce them in a consistent, 
-  hierarchical manner across your entire infrastructure, from a central administrator account
+# Steps
+- Control how policies are implemented across all accounts using AWS Organisation
+- To detect newly created resources by AWS Firewall manager, AWS Config must be enabled for all these accounts
+- As soon as this is done, security policies can be added to all these newly created resources
+- You can even enable security groups for EC2 Instances
+- We can now add firewall like WAF making it consistent across the organisation
+# You can centrally manage the below firewalls
+- DNS firewall group rule association
+- Network firewalls
+- Amazon VPC security groups
+- Shield advanced protection
+- WAF rules
+# Video
+- https://www.youtube.com/watch?v=EBoWOCQk2K0

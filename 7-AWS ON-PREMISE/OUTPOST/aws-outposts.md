@@ -9,6 +9,7 @@
 - For low latency, you can connect AWS outpost to your local network using Storage Gateway 
 - Create subnets in your VPC and associate it to your outpost
 - Run all services on Outpost
+- Runs only EC2 ECS launch type
 
 # Video
 - https://www.youtube.com/watch?v=ppG2FFB0mMQ&t=55s

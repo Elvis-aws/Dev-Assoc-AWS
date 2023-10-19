@@ -8,8 +8,8 @@
 - Supports multiple destination
 - Monitor progress using Amazon CloudWatch
 # Transfer files to the following destinations
-- Amazon EFS file system
-- Amazon FX for windows file system
+- Amazon EFS file system (Linux)
+- Amazon FX for windows file system (Windows)
 - Amazon S3
 # Use cases
 - Data Migration, Data replication and Cold data archival
