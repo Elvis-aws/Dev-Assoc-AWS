@@ -12,7 +12,7 @@
 - When the workload decreases, Application Auto Scaling decreases the throughput so that you don't pay for unused 
   provisioned capacity
 # Enable auto scaling
-- If you use the AWS Management Console to create a table or a global secondary index, DynamoDB auto scaling is enabled 
+- If you use the AWS Management Console to create a table or a global secondary index, DynamoDB auto-scaling is enabled 
   by default
 - When you delete a table or global table replica then any associated scalable targets, scaling polices, or CloudWatch 
   alarms are not automatically deleted with it

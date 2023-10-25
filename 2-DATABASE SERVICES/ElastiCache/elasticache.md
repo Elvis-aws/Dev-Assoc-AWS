@@ -11,12 +11,3 @@
 # Two Options:
 - Redis
 - Memcached
-# ElastiCache Memcached vs Redis
-- Use ElastiCache Memcached for
-  - Low maintenance simple caching solution 
-  - Easy horizontal scaling with auto discovery
-- Use ElastiCache Redis for
-  - Persistence 
-  - Publish subscribe messaging 
-  - Read replicas and failover 
-  - Encryption

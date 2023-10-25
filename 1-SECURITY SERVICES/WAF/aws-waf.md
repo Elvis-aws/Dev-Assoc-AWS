@@ -9,4 +9,4 @@
 - Filter traffic based on IP addresses, geolocations, HTTP headers and body (block attacks from specific user-agents, 
   bad bots, or content scrapers)
 # Vulnerability
-- A weakness or gab in your protection
+- A weakness or gap in your protection
