@@ -13,7 +13,7 @@
   - Build on SSD storage
   - Shared file system
   - Multi Az file system (Failover)
-- Amazon FSx for Lustre (Linux)
+- Amazon FSx for Lustre
   - High performance file system
   - Faster than EFS
   - Connects to S3 (Replicates data in S3)

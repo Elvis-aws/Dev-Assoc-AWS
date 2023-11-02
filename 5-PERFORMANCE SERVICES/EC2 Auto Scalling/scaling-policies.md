@@ -18,3 +18,11 @@
         can set multiple actions to vary the scaling depending on the size of the alarm breach
      - +1 if CPU utilization between 70% and 80% +3 if CPU utilization between 80% and 100% Similar settings for scale down
          - Warm up time can be configured for each instance
+# Cooldown period
+- It allows you to temporally suspend scaling activity in other to allow the newly created instances to get configured
+- if it takes an instance 400 seconds to be configured to receive traffic, and if the cooldown period is set lower than
+  this value, a rise in configured metrix can trigger cloudwatch alarm to set of another scaling when the first has not
+  yet been taken into effect
+- It is a setting you can configure for your Auto Scaling group that helps to ensure that it doesn't launch or terminate 
+  additional instances before the previous scaling activity takes effect
+- A default cooldown period of 300 seconds is applied when you create your Auto Scaling group

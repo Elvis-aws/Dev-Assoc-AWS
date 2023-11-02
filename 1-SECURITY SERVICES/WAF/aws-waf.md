@@ -8,5 +8,6 @@
 - Web traffic filtering : block attacks
 - Filter traffic based on IP addresses, geolocations, HTTP headers and body (block attacks from specific user-agents, 
   bad bots, or content scrapers)
+- Protection against common infrastructure (layer 7) attacks
 # Vulnerability
 - A weakness or gap in your protection

@@ -1,6 +1,6 @@
 
 # Glacier Vault Storage
-- Glacier Vault is an archive storage solution independent from AWS S3
+- Glacier Vault is an archive storage solution independent of AWS S3
 - It uses storage containers named vaults (opposed to S3 buckets) and its own set of APIs for data uploading and 
   retrieving
 - As the storage price is cheaper compared to S3, data retrieval is more expensive and time-consuming
