@@ -6,9 +6,10 @@
 - It defines which AWS accounts or groups are granted access and the type of access
 - When a request is received against a resource, Amazon S3 checks the corresponding ACL to verify that the requester 
   has the necessary access permissions 
-- S3 Object Ownership is an Amazon S3 bucket-level setting that you can use to both control ownership of the objects 
-  that are uploaded to your bucket and to disable or enable ACLs
-- By default, Object Ownership is set to the bucket owner enforced setting, and all ACLs are disabled
+# ACL Object Ownership
+- It is an Amazon S3 bucket-level setting that you can use to both control ownership of the objects that are uploaded to 
+  your bucket and to disable or enable ACLs
+- By default, it is set to the bucket owner enforced setting, and all ACLs are disabled
 - When ACLs are disabled, the bucket owner owns all the objects in the bucket and manages access to them exclusively by 
   using access-management policies 
 - A majority of modern use cases in Amazon S3 no longer require the use of ACLs
@@ -20,9 +21,3 @@
   to your bucket and the objects in it
 - With the bucket owner enforced setting enabled, requests to set access control lists (ACLs) or update ACLs fail and 
   return the AccessControlListNotSupported error code. Requests to read ACLs are still supported
-# Edit ACL
-- You can edit ACL settings in the console
-- Public access can only list and read
-- Authenticated user groups can only list and read
-- S3 Log delivery group can list, read and write
-- Add AWS account that can list, read and write
