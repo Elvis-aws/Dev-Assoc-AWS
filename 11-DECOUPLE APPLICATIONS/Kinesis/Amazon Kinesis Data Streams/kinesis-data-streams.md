@@ -2,7 +2,7 @@
 # Amazon Kinesis Data Streams
 - Amazon Kinesis Data Streams is a limitless Real time stream processing
 - Provides Sub second processing latency
-# Here are some of the important features of Amazon Kinesis Data Streams:
+# Important features:
 - Alternative for Kafka
 - Supports multiple clients
   - Each client can track their stream position

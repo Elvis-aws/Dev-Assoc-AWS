@@ -6,7 +6,5 @@
 - Match the payload to an API-specified format
 - Override an API's request and response parameters and status codes
 - Return client selected response headers
-- Associate path parameters, query string parameters, or header parameters in the method request of HTTP proxy or AWS 
-  service proxy
-- Select which data to send using integration with AWS services, such as Amazon DynamoDB or Lambda functions, or HTTP 
-  endpoints
+- Associate path parameters, query string parameters, or header parameters in the method request
+- Select which data to send using integration with Amazon DynamoDB or Lambda functions, or HTTP endpoints

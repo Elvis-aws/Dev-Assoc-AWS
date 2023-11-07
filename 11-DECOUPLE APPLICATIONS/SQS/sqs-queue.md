@@ -1,6 +1,6 @@
 
 # SQS
-- Amazon SQS (Simple Queue Service) is a fully managed service popular for its message queuing functionality
+- Amazon SQS is a fully managed service popular for its message queuing functionality
 - Developers often send and retrieve messages of various types and sizes asynchronously using this service
 - Messages can contain up to 256 KB of text in any format such as json, xml, etc
 - Messages are kept in a queue from 1 minute to 14 days
