@@ -1,5 +1,5 @@
 
-
+# IG
 - Internet Gateway (IGW) allows instances with public IPs to access the internet. NAT Gateway (NGW) allows instances 
   with no public IPs to access the internet
 - Unlike NAT Gateway and Internet Gateway, a NAT Instance is not a special service offered by AWS. It is just a term for 

@@ -8,5 +8,5 @@
 - Spot Instances: Request unused EC2 instances, which can reduce your Amazon EC2 costs significantly
 - Dedicated Hosts: Pay for a physical host that is fully dedicated to running your instances, and bring your existing 
   per-socket, per-core, or per-VM software licenses to reduce costs
-- Dedicated Instances: Pay, by the hour, for instances that run on single-tenant hardware.
+- Dedicated Instances: Pay, by the hour, for instances that run on single-tenant hardware
 - Capacity Reservations: Reserve capacity for your EC2 instances in a specific Availability Zone for any duration

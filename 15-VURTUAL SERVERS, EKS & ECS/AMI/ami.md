@@ -7,7 +7,7 @@
 - You can configure launch permissions on an AMI
   - Who can use the AMI? 
   - You can share your AMIs with other AWS accounts
-- Best Practice: Backup upto date AMIs in multiple regions
+- Best Practice: Backup up-to date AMIs in multiple regions
   - Critical for Disaster Recovery
 - After you create and register an AMI, you can use it to launch new instances
 - When you no longer require an AMI, you can deregister it

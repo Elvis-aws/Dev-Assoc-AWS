@@ -1,7 +1,5 @@
 
 # AWS Direct Connect
-- AWS Direct Connect (DX)
-  - Private dedicated network connection from on-premises to AWS
 - Private dedicated network connection from on-premises to AWS
 - Advantages:
   - Private network 
